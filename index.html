@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+  <head>
+
+    <meta charset="UTF-8"/>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2/dist/tf.min.js"></script>
+
+    <title>당신의 중고제품의 정체는?</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    </head>
+    
+    <body>
+    
+        <div id="fullpage" class="fullpage-default">
+
+            <div class="section animated-row" data-section="slide01">
+                <div class="section-inner">
+
+                        <span class="welcome-first animate" data-animate="fadeInUp">당신의 전자제품을 중고시장에 팔고싶다면?</span>
+                        <br><br>
+                        <h2 class="welcome-title animate" data-animate="fadeInUp">진실의 바다로 오세요</h2>
+                        <br><br>
+                        <p style="color:white;" class="animate" data-animate="fadeInUp">
+                            진실의 바다는 당신이 찍은 전자제품의 사진만 있다면</p>
+                        <p style="color:white;" class="animate" data-animate="fadeInUp">
+                            그 제품에 맞는 중고시장 판매주소까지 인도해줍니다.</p>
+                </div>
+            </div>
+
+            <div class="section animated-row" data-section="slide02">
+                <div class="section-inner">
+                    <h1 class="animate" data-animate="fadeInUp">당신의 전자제품의 사진을 가져오세요</h1>
+                    <br><br>
+                    <div className="container">
+                        <br><br>
+                        <input id="fileInput" type="file" />
+                        <img id="imagePreview" />
+                    </div> 
+                </div>
+            </div>
+
+            <div class="section animated-row" data-section="slide03">
+                <div class="section-inner">
+                    <h1 class="animate" data-animate="fadeInUp">당신의 사진이 바다에 들어가기 위해</h1>
+                    <h1 class="animate" data-animate="fadeInUp">조정이 필요합니다.</h1>
+                    <br><br>
+                    <div className="container">
+                        <button id="imageResizeBtn" class="btn btn-outline-primary">조정하기</button>
+                    </div>
+                   
+                    <div className="container">
+                        <br><br><br>
+                        <img id="resizedImagePreview" />
+                    </div>
+                    <br class="animate" data-animate="fadeInUp">
+                    <p style="color:white;">조정한 후, 약간의 시간이 지나면 다음페이지에서 확인이 가능합니다.</p>
+                </div>
+            </div>
+
+            <div class="section section04 animated-row" data-section="slide04">
+                <h1 class="animate" data-animate="fadeInUp">당신의 전자제품은</h1>
+				<h1 class="animate" data-animate="fadeInUp"><span id="word"></span></h1>
+                <h1 class="animate" data-animate="fadeInUp">입니다</h1>
+                <br><br>
+                <p style="color:white;">중고시장에서 이 제품을 판매하기 위한 주소를 알고싶다면 스크롤을 내려주세요</p>
+
+            </div>
+            <div class="section section05 animated-row" data-section="slide05">
+                <h1>주소</h1>
+                <span id="link"></span>
+                <br><br><br>
+                <p style="color:white;">네이버 로그인 후</p>
+                <p style="color:white;">주소를 세번 클릭 후 복사 붙여넣기를 하시면 바로 이동이 가능합니다.</p>
+            </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/fullpage.min.js"></script>
+
+    <script src="js/scrolloverflow.js"></script>
+
+    <script src="js/jquery.inview.min.js"></script>
+
+    <script src="js/custom.js"></script> 
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
